@@ -8,7 +8,9 @@ environment:
 
 dependencies: 
   chess_shared:
-    path: ../chess_shared
+    git:
+      url: git@github.com:marioki/chess_shared.git
+      ref: main
 
 dev_dependencies:
   mocktail: ^1.0.4
